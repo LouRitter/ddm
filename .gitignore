@@ -1,0 +1,34 @@
+# Node modules and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript build output
+dist/
+*.tsbuildinfo
+
+# Firebase emulator
+firebase-debug.log
+.firebaserc
+
+# Secrets and credentials
+secrets/
+*.key.json
+*.pem
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# OS and editor-specific
+.DS_Store
+Thumbs.db
+
+# Coverage (if using testing later)
+coverage/
+.nyc_output/
+
+# Artillery and test output
+artillery-report.json

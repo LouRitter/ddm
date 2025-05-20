@@ -1,0 +1,53 @@
+[
+  {
+    "id": "article1",
+    "title": "Celebrity Red Carpet Moments",
+    "author": "Jane Doe",
+    "category": "ENTERTAINMENT",
+    "date": "2024-10-01T08:00:00Z",
+    "content": "See what your favorite celebrities wore to the event of the year.",
+    "tags": [
+      "fashion",
+      "celebrity",
+      "events"
+    ],
+    "heroImage": {
+      "url": "https://example.com/image1.jpg",
+      "alt": "Celebrity posing on red carpet"
+    }
+  },
+  {
+    "id": "article2",
+    "title": "10 Must-Try Fall Hairstyles",
+    "author": "John Smith",
+    "category": "STYLE & BEAUTY",
+    "date": "2024-09-15T09:30:00Z",
+    "content": "From bold bangs to bouncy curls, these styles are trending now.",
+    "tags": [
+      "beauty",
+      "hair",
+      "trends"
+    ],
+    "heroImage": {
+      "url": "https://example.com/image2.jpg",
+      "alt": "Fall hairstyle inspiration"
+    }
+  },
+  {
+    "id": "article3",
+    "title": "Inside the Star-Studded Gala Night",
+    "author": "Mary Johnson",
+    "category": "ENTERTAINMENT",
+    "date": "2024-08-20T19:45:00Z",
+    "content": "A night full of glitz, glamour, and unforgettable performances.",
+    "tags": [
+      "events",
+      "entertainment",
+      "celebrity"
+    ],
+    "heroImage": {
+      "url": "https://example.com/image3.jpg",
+      "alt": "Stars attending the gala night"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cms-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: cms-api
+  template:
+    metadata:
+      labels:
+        app: cms-api
+    spec:
+      containers:
+        - name: cms-api
+          image: gcr.io/YOUR_PROJECT_ID/cms-api
+          ports:
+            - containerPort: 3000

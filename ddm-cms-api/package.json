@@ -1,0 +1,17 @@
+{
+  "name": "ddm-cms-api",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "seed": "ts-node data/seed.ts"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^8.0.0",
+    "@google-cloud/firestore": "^7.11.1",
+    "fastify": "^5.3.3",
+    "firebase-admin": "^13.4.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
